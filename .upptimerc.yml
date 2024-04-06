@@ -5,13 +5,18 @@ repo: upptime # The name of this repository
 sites:
   - name: Cuterwrite
     url: https://cuterwrite.top
+    icon: https://cuterwrite.top/favicon.ico
+    maxResponseTime: 5000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  theme: light
+  robotsText: "User-agent: * \n Disallow: /"
+  apiBaseUrl: https://mirror.ghproxy.com/https://api.github.com
   cname: status.cuterwrite.top
-  # baseUrl: /
-  logoUrl: https://cuterwrite-1302252842.file.myqcloud.com/img/upptime-2024-04-06.svg
+  #baseUrl: /
+  logoUrl: https://mirror.ghproxy.com/raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
