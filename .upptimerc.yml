@@ -26,7 +26,7 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 i18n:
-  errorText: You can try again in a few moments.（如果你是中国用户，可能需要翻墙访问，因为 raw.githubusercontent.com 被墙了）
+  errorText: You can try again in a few moments.（如果您是中国用户，可能需要翻墙访问，因为网站依赖的 api.github.com 被墙了）
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
