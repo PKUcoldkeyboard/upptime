@@ -4,7 +4,7 @@
     "url": "https://cuterwrite.top",
     "icon": "https://cuterwrite.top/favicon.ico",
     "slug": "cuterwrite",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
     "uptimeDay": "94.41%",
     "uptimeWeek": "99.20%",
@@ -16,6 +16,7 @@
     "timeMonth": 752,
     "timeYear": 674,
     "dailyMinutesDown": {
+      "2024-08-19": 0,
       "2024-08-18": 81,
       "2024-07-12": 24
     }
